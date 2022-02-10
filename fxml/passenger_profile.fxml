@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Pas_profileController">
+    <children>
+        <TableView fx:id="List" layoutX="14.0" layoutY="13.0" prefHeight="314.0" prefWidth="791.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="name" prefWidth="172.00003051757812" text="Имя" />
+                <TableColumn fx:id="surname" prefWidth="194.0" text="Фамилия" />
+                <TableColumn fx:id="email" prefWidth="193.0" text="Email" />
+                <TableColumn fx:id="phone" prefWidth="230.0" text="Телефон" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
